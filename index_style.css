@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(22, 3, 36);
+    color: azure;
+    font-family:Georgia;
+}
+h1 {
+    text-align: center;
+    font-family:Georgia;
+}
+
+#detail_optie {
+    text-align: center;
+}
+
+#serie_optie {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 15%;
+    padding: 10px;
+    background-color: rgb(68, 3, 84);
+    color: rgb(235, 166, 247);
+    border-color: white;
+
+}
+
+input {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(68, 3, 84);
+    color: rgb(235, 166, 247);
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+#film_serie_optie:hover {
+    border-color: rgb(69, 50, 213);
+}
+
+#nieuw_film_serie_optie:hover {
+    border-color: rgb(47, 92, 2);
+}

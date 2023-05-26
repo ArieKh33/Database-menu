@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(22, 3, 36);
+    color: azure;
+    font-family:Georgia;
+}
+th {
+    border-style: solid;
+    border-width: 2px;
+    border-top-left-radius: 3px;
+}
+
+td {
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: large;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+td:nth-child(6) {
+    font-size: small;
+    text-align:left;
+}
+td:nth-child(7) {
+    font-size: small;
+    text-align:left;
+}
+td:last-child:hover {
+    background-color: rgb(218, 213, 239);
+}

@@ -1,0 +1,47 @@
+body {
+    background-color:rgb(22, 3, 36);
+    color: azure;
+    font-family:Georgia;
+}
+
+input {
+    background-color: black;
+    color: rgb(234, 151, 252);
+    margin-left: 5%;
+    margin-bottom: 4px;
+}
+
+select {
+    background-color: black;
+    color: rgb(234, 151, 252);
+    margin-left: 5%;
+    margin-bottom: 4px;
+}
+label {
+    color: rgb(234, 151, 252);
+    margin-left: 4.5%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#summary {
+    display: block;
+    width: 40%;
+    line-height: 20px;
+    padding-bottom: 60px;
+}
+
+#confirm {
+    margin: 10px;
+}
+
+input:last-child {
+    margin: 10px; 
+}
+
+
+input:last-child:hover {
+    background-color: rgb(40, 7, 71);
+    border-color: aliceblue;
+}
